@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.11.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:front": "cd front-end/portfolio-app && npm start",
+    "start:back": "cd back-end && npm start",
+    "install": "(cd front-end/portfolio-app && npm install); (cd back-end && npm install)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeC18/GuilhermeCaeiroPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeC18/GuilhermeCaeiroPortfolio/issues"
+  },
+  "homepage": "https://github.com/GuilhermeC18/GuilhermeCaeiroPortfolio#readme"
+}
