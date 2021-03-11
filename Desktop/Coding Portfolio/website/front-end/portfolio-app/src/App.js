@@ -29,7 +29,7 @@ export default function App(){
     fetch('/api/user/')
       .then(res => res.json())
       .then((Projects) =>{
-        console.log(Projects)
+        console.log(Projects, "Projects")
         setProjects(Projects)
       })
       .catch((err) => setError(err));

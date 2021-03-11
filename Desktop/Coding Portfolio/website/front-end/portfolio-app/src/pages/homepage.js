@@ -68,7 +68,7 @@ const StyledImage = styled.img`
 `;
 
 const StyledTitle = styled.h1` 
-  
+  margin-top: 80px;
 `
 
 export default function Homepage({Projects}) {

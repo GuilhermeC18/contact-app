@@ -9,12 +9,13 @@ z-index: 10;
 color: #fff;
 display: flex;
 align-items: center;
-font-size: 0.9rem; 
+font-size: 1xrem; 
 text-decoration: none;
 padding: 0 1rem; 
 height: 100%; 
 cursor: pointer; 
 font-style: italic;
+padding-top: 10px;
 padding-bottom: 80px;
 `; 
 
